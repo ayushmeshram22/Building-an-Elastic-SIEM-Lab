@@ -18,10 +18,48 @@ Elastic Stack – Elasticsearch, Kibana, and Elastic Agent for log collection an
 
 Nmap – to simulate network activity and security events
 
-#
-step 1:  Building-a-Cbersecurity-Lab in both windows and
- kali Linux
- 
+
+🔐 ELK Stack SIEM Lab — Log Monitoring & Threat Detection
+
+This project is a hands-on Security Information and Event Management (SIEM) lab built with the Elastic Stack (Elasticsearch, Logstash, Kibana).
+It demonstrates how to ingest, parse, and analyze logs from Windows and Linux systems, and detect simulated cyberattacks in real time.
+
+Key highlights:
+
+📥 Log Ingestion:
+
+Windows Sysmon logs (via Winlogbeat).
+
+Linux authentication logs (via Filebeat).
+
+🛡 Threat Detection:
+
+Detect SSH brute-force attempts from Linux auth logs.
+
+Identify suspicious PowerShell activity (e.g., encoded commands) from Sysmon logs.
+
+📊 Visualization & Alerts:
+
+Custom Kibana dashboards for real-time log monitoring.
+
+Detection rules and alerts for brute-force and malicious PowerShell usage.
+
+⚔ Attack Simulation:
+
+SSH brute-force attacks using Hydra from Kali Linux.
+
+Obfuscated PowerShell commands to trigger Sysmon detections.
+
+💡 Learning Outcomes:
+
+Gain practical experience with the ELK stack as a SIEM.
+
+Understand log ingestion pipelines, enrichment, and visualization.
+
+Explore detection engineering by creating rules against real attack scenarios.
+
+This project is perfect for students, SOC analysts, and cybersecurity enthusiasts who want a safe, lab-based environment to practice log monitoring, detection engineering, and SIEM operations.
+
 
 
 
