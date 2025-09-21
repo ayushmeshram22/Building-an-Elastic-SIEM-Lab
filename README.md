@@ -1,7 +1,7 @@
 
 # SIEM Log Monitoring & Threat Detection
 
-Building an Elastic SIEM Lab
+Building an Elastic SIEM Lab && splunk labs
 Overview
 
 This project is all about creating a hands-on Security Information and Event Management (SIEM) lab using Elastic SIEM and a Kali Linux VM. The idea is to collect and analyze logs from a system, visualize them on dashboards, and get alerts for specific security events. We’ll generate some sample security events using Nmap scans and forward them to Elastic for monitoring.
